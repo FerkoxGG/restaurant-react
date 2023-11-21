@@ -10,7 +10,7 @@ const Restaurants = () => {
   }, []);
 
   const initData = async () => {
-    var url = process.env.REACT_APP_API_URL;
+    var url = process.env.test.local.REACT_APP_API_URL;
 
     var requestOptions = {
       method: 'GET'
